@@ -1,0 +1,39 @@
+body {
+    background: lightgray
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: white;
+    background: #333;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+}
+
+
+
